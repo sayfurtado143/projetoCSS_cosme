@@ -1,0 +1,111 @@
+/* geral */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	color: #323232;
+	border: none;
+}
+body {
+	background-color: rgba(0, 0, 0, 0.7);
+	background-image: url('../img/fundo.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+h1 {
+	color: white;
+}
+textarea:focus, input:focus {
+	outline: none;
+}
+a, label{
+	font-size: .9rem;
+}
+a:hover {
+	color: #085588;
+}
+/* container do login */
+
+#login-container {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px 40px;
+	margin-top: 10vh;
+	border-radius: 20px;
+	text-align: center;
+
+}
+#login-container a{
+	color: white;
+}
+/* formulario */
+
+form {
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+label, input {
+	display: block;
+	width: 200px;
+	text-align: left;
+	color: white;
+}
+
+input {
+	border-bottom: 2px solid #323232;
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 20px;
+	color: black;
+}
+input:focus {
+	border-bottom: 2px solid #08558B;
+}
+#forgot-pass {
+	text-align: right;
+	display: block;
+	text-decoration: none;
+}
+button {
+	
+	background-color:HotPink;
+	border: none;
+	padding: 15px;
+	width: 80%;
+	border-radius: 10px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+button a{
+	color: white;
+	text-decoration: none;
+}
+button:hover{
+	background-color:DeepPink;
+}
+
+#social-container, #social-container p {
+	margin-bottom: 20px;
+}
+
+/* registrar */
+
+#register-container p{
+	margin-bottom: 10px;
+	color: white;
+
+}
+#register-container {
+	color: #1E90FF;
+	
+}
+#register-container a{
+	text-decoration: none;
+}

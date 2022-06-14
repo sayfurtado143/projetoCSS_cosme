@@ -1,0 +1,60 @@
+body {
+	background-color: white;
+	background-image: url('../img/fundo.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.senha {
+	background-color: rgba(0, 0, 0, 0.7);
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 40px;
+	margin-top: 30vh;
+	border-radius: 20px;
+	text-align: center;
+}
+h1{
+	color: white;
+}
+form {
+	margin-top: 30px;
+	margin-bottom: 40px;
+
+}
+label, input {
+	display: block;
+	width: 200px;
+	text-align: left;
+	border-radius: 10px;
+	color: white;
+}
+input {
+	border-bottom: 2px solid #323232;
+	padding: 10px;
+	font-size: 1rem;
+	margin-bottom: 20px;
+	color: black;
+}
+input:focus {
+	border-bottom: 2px solid #08558B;
+}
+button {
+	background-color:HotPink;
+	border: none;
+	padding: 15px;
+	width: 80%;
+	border-radius: 10px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+button a{
+	color: white;
+	text-decoration: none;
+}
+button:hover{
+	background-color: DeepPink;
+}

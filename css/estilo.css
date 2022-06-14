@@ -71,6 +71,12 @@ body{
     text-align: center;
     background-color: #FFF0F5;
 }
+.cabecalho2 a{
+	text-decoration: none;
+	color: black;
+	font-family:calibri ;
+	font-size: 25px;
+}
 .centro1 {
     margin-top: 3px;
 	width: 596px;
