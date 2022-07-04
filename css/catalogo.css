@@ -86,49 +86,36 @@ body{
 	border-radius: 10px;
 	float: left;
 	background-color:  	#FFF0F5;
-
 }
-h1{
+.c20{
+	margin-top: 3px;
+    width: 292px;
+    height: 286px;
+    border: 0px white;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #FFF0F5;
+    text-align: justify;
+    font-family: calibri;
+    float: left;
+    display: inline-block;	
+}
+.c20{
+	overflow: hidden;
+}
+.c20 img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.c20:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+p{
 	color: black;
-}
-form {
-	margin-top: 30px;
-	margin-bottom: 40px;
-	display: block;
-}
-label, input {
-	display: block;
-	width: 200px;
-	text-align: center;
-	border-radius: 10px;
-	color: black;
-}
-input {
-	border-bottom: 2px solid #323232;
-	padding: 10px;
-	font-size: 1rem;
-	margin-bottom: 20px;
-	color: black;
-}
-input:focus {
-	border-bottom: 2px solid #08558B;
-}
-button {
-	background-color:HotPink;
-	border: none;
-	padding: 15px;
-	width: 80%;
-	border-radius: 10px;
-	color: white;
-	font-size: 15px;
-	cursor: pointer;
-}
-button a{
-	color: white;
-	text-decoration: none;
-}
-button:hover{
-	background-color: DeepPink;
 }
 .centro1-ho{
 	margin-top: 3px;
@@ -145,7 +132,7 @@ button:hover{
     margin-left: 2px;
     padding-left: 2px;
     padding-right: 2px;
-    width: 597px;
+    width: 596px;
     min-height: 600px;
     border: 0px white;
     border-style: solid;
@@ -154,6 +141,33 @@ button:hover{
     background-color:  	#FFF0F5;
     text-align: justify;
     font-family: calibri;
+}
+.c22{
+	margin-top: 3px;
+    width: 292px;
+    height: 286px;
+    border: 0px white;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #FFF0F5;
+    text-align: justify;
+    font-family: calibri;
+    float: left;
+    display: inline-block;
+ }
+ .c22{
+	overflow: hidden;
+}
+.c22 img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.c22:hover img{
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
 }	
 .rodape {
     margin-top: 3px;
@@ -181,11 +195,8 @@ button:hover{
 	font-size: 15px;
 	font-family: arial;
 }
-.endereco {
+.endereco{
 	margin-left: 30px;
-}
-p {
-	color: black;
 }
 .rede-sociais{
 	color: #fff;
@@ -296,3 +307,4 @@ p {
 	background-color: white;
 	color: black;
 	border-bottom:3px solid #FFE4E1;
+}
